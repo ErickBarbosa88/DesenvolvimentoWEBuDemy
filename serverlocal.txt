@@ -1,0 +1,25 @@
+adicionando um server local para receber os dados do formulário: com o framework Express
+
+
+No terminal do vscode insira:
+
+1. cd (pasta formulario)
+2. dentro da pasta informada digite : ls para listar arquivos.
+
+3. em seguida digite npm init -y
+ O primeiro script “npm init” que serve para inicializar a configuração de uma aplicação Node.
+ Através desse comando criamos um arquivo chamado package. ... O próximo script, 
+(npm install express –save), serve para instalar o ExpressJs através do NPM e salvar essa dependência no arquivo package
+
+O que é o Express node JS?
+Express é um popular framework web estruturado, escrito em JavaScript que roda sobre o ambiente node. js em tempo de execução. 
+Este módulo explica alguns dos principais benefícios deste framework, como configurar o seu ambiente de desenvolvimento e como
+ executar tarefas comuns de desenvolvimento e implantação da web.
+
+O body-parser é um módulo capaz de converter o body da requisição para vários formatos
+. Um desses formatos é json, exatamente o que queremos.
+
+4.  em seguida : npm i --save express@4.16.3 body-parser@1.18.2 -E
+
+ exemplo de porta <form action="http://localhost:3003/usuarios" method="post">
+
